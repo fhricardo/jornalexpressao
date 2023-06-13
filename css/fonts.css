@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url("https://use.typekit.net/tpq5nhe.css");
+
+@font-face {
+    font-family: "FA-Solid";
+    src: url(../fonts/fa-solid.woff2);
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.kallisto {
+    font-family: "kallisto", sans-serif;
+}
+
+.main-menu {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sub-menu-item {
+    font-weight: 700;
+    font-size: 14px;
+}
