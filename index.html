@@ -13,6 +13,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/flickity.css">
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
@@ -34,6 +35,7 @@
     <link rel="shortcut icon" href="assets/favicon/favicon.ico">
     <!-- SCRIPTS -->
     <script src="https://kit.fontawesome.com/69296772a3.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.carouFredSel-6.2.1.js" defer></script>
 </head>
 
 <body>
@@ -126,7 +128,44 @@
         </div>
 
     </header>
+    <!-- //HEADER -->
+    <div class="container">
+        <!-- SLIDER -->
+        <div class="main-carousel"
+            data-flickity='{ "wrapAround": true,"autoPlay": 4000,"pauseAutoPlayOnHover": false,"contain": true,"prevNextButtons": true,"pageDots": false }'>
+            <div class="carousel-cell">
+                <img src="assets/banner1.jpg" alt="">
+                <div class="slide-news">
+                    <h2>São Roque Fest atrai milhares de pessoas com shows de Fernando & Sorocaba e Matheus & Kauan</h2>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/banner2.jpg" alt="">
+                <div class="slide-news">
+                    <h2>Feira de Adoção de Pets de Itapevi acontece neste sábado (17) no Ita Shopping Centro</h2>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/banner5.jpg" alt="">
+                <div class="slide-news">
+                    <h2>Campeonato Amador de Barueri retorna com rodada completa após o feriado</h2>
+                </div>
+            </div>
+        </div>
+        <!-- //SLIDER -->
+        <div class="contents">
+            <main>
+                <section class="last">
+                    <h4>Últimas Notícias</h4>
+                </section>
+            </main>
+            <aside>
+
+            </aside>
+        </div>
+    </div>
     <!-- SCRIPTS -->
+    <script src="js/flickity.pkgd.min.js"></script>
     <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
 </body>
 
